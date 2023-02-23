@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUSIC APP</title>
+</head>
+<body style="background-color: aliceblue;">
+    <h1 style="color: cornflowerblue; align-content: center; size: 50px;">MUSIC APP</h1>
+    <h3>Registrati</h3>
+    <form onsubmit="alert('registrazione inviata')">
+        <div>
+            <input type="text" placeholder="il tuo nome" style="font-size: medium;" />
+        </div>
+        <div>
+            <input type="text" placeholder="il tuo cognome" style="font-size: medium;" />
+        </div>
+        <div>
+            <input type="email" placeholder="il tuo indirizzo email" style="font-size: medium;" />
+        </div>
+        <div>
+            <input type="password" placeholder="la tua password" style="font-size: medium;" />
+        </div>
+        <div>
+            <input type="text" placeholder="la tua data di nascita" style="font-size: medium;" />
+        </div>
+        <p>
+            Dicci i tuoi gusti musicali
+        </p>
+        <div style="display: flex; flex-direction: column; max-width: 200px;">
+            <label style="display: flex; justify-content: space-between;">Rock <input type="checkbox" name="genre" value="rock"></label>
+            <label style="display: flex; justify-content: space-between;">Pop <input type="checkbox" name="genre" value="pop"></label>
+            <label style="display: flex; justify-content: space-between;">Metal <input type="checkbox" name="genre" value="metal"></label>
+            <label style="display: flex; justify-content: space-between;">R'N'B <input type="checkbox" name="genre" value="rnb"></label>
+            <label style="display: flex; justify-content: space-between;">Hip-Hop <input type="checkbox" name="genre" value="hiphop"></label>
+            <label style="display: flex; justify-content: space-between;">Rap <input type="checkbox" name="genre" value="rap"></label>
+            <label style="display: flex; justify-content: space-between;">Jazz <input type="checkbox" name="genre" value="jazz"></label>
+            <label style="display: flex; justify-content: space-between;">Classica <input type="checkbox" name="genre" value="classica"></label>
+            <label style="display: flex; justify-content: space-between;">EDM <input type="checkbox" name="genre" value="edm"></label>
+        </div>
+        <br>     
+        <form>
+            <label for="comment">Commento:</label><br style="margin-bottom: 10px;">
+            <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
+            <br>
+            <br>
+            <label>Accetta i termini e condizioni <input type="checkbox"></label><br>
+    
+            <input type="submit" value="INVIA REGISTRAZIONE" style="margin-top: 50px;">
+        </form>
+    </form>
+</body>
+</html>
+    
